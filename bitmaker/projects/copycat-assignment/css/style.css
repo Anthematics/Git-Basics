@@ -1,0 +1,114 @@
+
+html {
+font-family: helvetica,arial sans-serif;
+font: blue;
+background-color: white;
+display: block;
+box-sizing: border-box;
+font-size: 1.2em;
+}
+
+img{
+  max-width: 100%;
+}
+
+header {
+background-color: #06D6A0;
+text-align: center;
+}
+
+h2{
+
+}
+
+footer {
+background-color: #06D6A0;
+height: 50px;
+line-height: 50px;
+text-align: right;
+padding: 0 20px;
+}
+
+ul {
+display: block;
+}
+
+.groupofcats{
+  float:left;
+  width: 60%
+}
+
+.meowcome{
+  float: right;
+  width:40%;
+
+}
+
+
+.logo {
+float: left;
+line-height: 60px;
+color: white;
+}
+
+.navbar{
+float: right;
+}
+
+
+.navitem {
+display: inline-block;
+margin-right: 10px;
+line-height: 60px;
+
+}
+.cats .products .about {
+padding: 30px 20px;
+box-sizing: border-box;
+}
+
+.cats {
+      background-color: #FFD166;
+}
+
+
+.products {
+background-color: #F2F2F2;
+}
+.about{
+background-color: #26547C;
+}
+
+.Team {
+
+}
+
+.teamfun{
+float: left;
+width: 33.33333%;
+text-transform: uppercase;
+text-align: center;
+color: #EF476F ;
+}
+
+.teammeow{
+float: left;
+width: 33.33333%;
+text-transform: uppercase;
+text-align: center;
+color: #EF476F ;
+}
+
+.teamvalues{
+float: left;
+width: 33.33333%;
+text-transform: uppercase;
+text-align: center;
+color: #EF476F;
+}
+
+.catli{
+float:left;
+width:33%;
+padding:10px;
+}

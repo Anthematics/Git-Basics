@@ -1,4 +1,6 @@
 
+/*General rules go here */
+
 html {
 font-family: helvetica,arial sans-serif;
 font: blue;
@@ -8,6 +10,9 @@ box-sizing: border-box;
 font-size: 1.2em;
 }
 
+ul {
+  list-style: none;
+}
 img{
   max-width: 100%;
 }
@@ -33,22 +38,77 @@ ul {
 display: block;
 }
 
+p {
+
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/*Media rulez */
+
+
+@media screen and (min-width: 550px) {
+    html {
+        font-size: 1.2em;
+    }
+
+
+@media screen and (min-width: 550px) {
+
+header {
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 550px){
+  .logo {
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 550px) {
+.home {
+  background-color: #26547C;
+  color: white;
+}
+
+@media screen and (min-width: 550px) {
+.catpix {
+    overflow: hidden;
+}
+
+
+
+/*CLASS RULES R HERE */
+
+
+
 .groupofcats{
   float:left;
   width: 60%
 }
 
 .meowcome{
-  float: right;
-  width:40%;
-
+  overflow: hidden;
+  padding-bottom: 240px;
+  font-size: 1.2em;
+  text-align: center;
 }
 
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+}
 
 .logo {
 float: left;
 line-height: 60px;
 color: white;
+margin: 0;
 }
 
 .navbar{
@@ -69,14 +129,17 @@ box-sizing: border-box;
 
 .cats {
       background-color: #FFD166;
-}
-
+    }
 
 .products {
 background-color: #F2F2F2;
 }
+
 .about{
 background-color: #26547C;
+color: white;
+text-align: left;
+padding: 10px;
 }
 
 .Team {
@@ -84,6 +147,7 @@ background-color: #26547C;
 }
 
 .teamfun{
+
 float: left;
 width: 33.33333%;
 text-transform: uppercase;
@@ -109,6 +173,11 @@ color: #EF476F;
 
 .catli{
 float:left;
-width:33%;
+width:30%;
 padding:10px;
+border: 3px solid black;
+}
+
+.catpix {
+
 }
